@@ -1,0 +1,2 @@
+# No external runtime dependency is required.
+# Tkinter ships with standard Python installations.

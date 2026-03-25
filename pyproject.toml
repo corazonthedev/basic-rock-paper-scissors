@@ -1,0 +1,12 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+branch = true
+source = ["src/rps_game"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+omit = ["src/rps_game/ui.py"]

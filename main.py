@@ -1,5 +1,3 @@
-"""Backward-compatible launcher for the original entry point."""
-
 from src.rps_game.config import AppConfig
 from src.rps_game.ui import launch_app
 
